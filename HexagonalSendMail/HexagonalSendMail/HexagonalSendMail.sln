@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "adapters", "adapters", "{261E07FD-1A5C-4CBE-AE48-5F7E1ECFF4F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{B5979577-8C10-47C8-A799-99DA6D338904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ports", "ports", "{9E502DA0-6ACA-42AB-A3FC-503894B8DE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalSendMail.Adapter.Smtp", "HexagonalSendMail.Adapter.Smtp\HexagonalSendMail.Adapter.Smtp.csproj", "{F6F1D4BD-58D7-4A0F-8278-5186563E1E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalSendMail.Core.Domain", "HexagonalSendMail.Core.Domain\HexagonalSendMail.Core.Domain.csproj", "{89378609-C356-4708-AE81-C673BEA6A1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalSendMail.Ports.SendMailWorker", "HexagonalSendMail.Ports.SendMailWorker\HexagonalSendMail.Ports.SendMailWorker.csproj", "{F811F489-9A30-4099-BA44-BC33EDD6AE55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalSendMail.Core.Application", "HexagonalSendMail.Core.Application\HexagonalSendMail.Core.Application.csproj", "{D028C778-B3BD-40DA-A9D3-995632A3C4A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6F1D4BD-58D7-4A0F-8278-5186563E1E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F1D4BD-58D7-4A0F-8278-5186563E1E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F1D4BD-58D7-4A0F-8278-5186563E1E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F1D4BD-58D7-4A0F-8278-5186563E1E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89378609-C356-4708-AE81-C673BEA6A1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89378609-C356-4708-AE81-C673BEA6A1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89378609-C356-4708-AE81-C673BEA6A1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89378609-C356-4708-AE81-C673BEA6A1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F811F489-9A30-4099-BA44-BC33EDD6AE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F811F489-9A30-4099-BA44-BC33EDD6AE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F811F489-9A30-4099-BA44-BC33EDD6AE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F811F489-9A30-4099-BA44-BC33EDD6AE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D028C778-B3BD-40DA-A9D3-995632A3C4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D028C778-B3BD-40DA-A9D3-995632A3C4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D028C778-B3BD-40DA-A9D3-995632A3C4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D028C778-B3BD-40DA-A9D3-995632A3C4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6F1D4BD-58D7-4A0F-8278-5186563E1E32} = {261E07FD-1A5C-4CBE-AE48-5F7E1ECFF4F5}
+		{89378609-C356-4708-AE81-C673BEA6A1C1} = {B5979577-8C10-47C8-A799-99DA6D338904}
+		{F811F489-9A30-4099-BA44-BC33EDD6AE55} = {9E502DA0-6ACA-42AB-A3FC-503894B8DE75}
+		{D028C778-B3BD-40DA-A9D3-995632A3C4A0} = {B5979577-8C10-47C8-A799-99DA6D338904}
+	EndGlobalSection
+EndGlobal
